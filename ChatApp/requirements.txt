@@ -16,3 +16,5 @@ git+https://github.com/huggingface/peft.git
 git+https://github.com/huggingface/transformers.git
 SentencePiece
 onnxruntime-gpu
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
